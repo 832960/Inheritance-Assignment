@@ -63,7 +63,7 @@ public class Tests {
 
         //Check if the equal method can tell if two moons are equal
         Assert.assertEquals(moon, moon1);
-        //Check if the equal method can tell if two equal equal on equal planets are the same, but different variable names
+        //Check if the equal method can tell if two planets are equal and moons are equal
         Assert.assertEquals(moon, moon2);
         //Check if the equal method can tell if the orbitTime, planet, atmosphere, and designation are different
         Assert.assertNotEquals(moon, moon3);
